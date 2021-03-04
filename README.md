@@ -6,3 +6,9 @@ com um enquete de avaliação dos serviços
 prestado por uma empresa ou pessoa, e faz o  
 calculo do NPS, que calcula o nível de satisfação  
 do cliente.
+
+
+Após clonar o projeto rode o seguinte comando:
+```
+npm install
+```
