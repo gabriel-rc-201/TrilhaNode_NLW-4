@@ -1,0 +1,67 @@
+
+<style>
+  .container {
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value {
+    padding: 10px;
+    margin: 2px;
+    background: #8257e6;
+    color: #fff;
+    border-radius: 6px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .level{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 350px
+  }
+
+  .answers{
+    width: 350px
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+
+<div class="container">
+  <label >Olá <strong> {{variables.name}}</strong>! Tudo Bem? </label>
+
+  <h3> {{variables.title}} </h3>
+  <br>
+  <strong> {{variables.description}} </strong>
+
+  <div class="level">
+    <span>Pouco provável</span>
+    <span>Muito provável</span>
+  </div>
+
+  <div class="answers">
+    <a class="value" href="{{variables.link}}/1?u={{variables.id}}">1</a>
+    <a class="value" href="{{variables.link}}/2?u={{variables.id}}">2</a>
+    <a class="value" href="{{variables.link}}/3?u={{variables.id}}">3</a>
+    <a class="value" href="{{variables.link}}/4?u={{variables.id}}">4</a>
+    <a class="value" href="{{variables.link}}/5?u={{variables.id}}">5</a>
+    <a class="value" href="{{variables.link}}/6?u={{variables.id}}">6</a>
+    <a class="value" href="{{variables.link}}/7?u={{variables.id}}">7</a>
+    <a class="value" href="{{variables.link}}/8?u={{variables.id}}">8</a>
+    <a class="value" href="{{variables.link}}/9?u={{variables.id}}">9</a>
+    <a class="value" href="{{variables.link}}/10?u={{variables.id}}">10</a>
+  </div>
+
+  <br>
+  <br>
+
+  <strong>Sua opnião é muioto importante</strong>
+  <strong>Gabriel Ribeiro</strong>
+</div>
